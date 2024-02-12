@@ -41,8 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   color: #818181;
   display: block;
-/*   margin: auto; */
-/*   width: 50%; */
+  margin: auto;
+   width: 50%;
 }
 
 /* When you mouse over the navigation links, change their color */
