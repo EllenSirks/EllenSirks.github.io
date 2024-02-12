@@ -56,3 +56,11 @@ h1, h2, h3, h4, h5, h6 {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.sidenav img{
+    height: 800px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
