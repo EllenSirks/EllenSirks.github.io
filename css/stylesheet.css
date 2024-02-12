@@ -2,10 +2,23 @@ body, html {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
 body {
   background: #dddddd;
   color: #4c4d4d;
   font-family: "Poppins", sans-serif;
+  background-image: url('../images/pretty_tarantula.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:220px,0px;
+  -ms-overflow-style:none;
 }
 
 h1, h2, h3, h4, h5, h6 {
