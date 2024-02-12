@@ -32,6 +32,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 20px;
 }
 
+.sidenav nav_img {
+    height: 10px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 60px;
@@ -56,12 +64,4 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-.sidenav img{
-    height: 10px;
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
