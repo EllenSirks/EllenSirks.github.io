@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 .circular--square { 
   border-radius: 50%;
   border: 5px solid #555;
+  z-index: 2; /* Stay on top */
 }
 
 /* The side navigation menu */
