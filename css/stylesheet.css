@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #818181;
   display: block;
   margin: auto;
-  width: 50%;
+/*   width: 50%; */
 }
 
 /* When you mouse over the navigation links, change their color */
