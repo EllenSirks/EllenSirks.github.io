@@ -19,6 +19,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2; /* Stay on top */
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
