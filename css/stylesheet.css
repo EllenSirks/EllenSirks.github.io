@@ -1,1 +1,13 @@
-.circular--square { border-radius: 50%; }
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #dddddd;
+  color: #4c4d4d;
+  font-family: "Poppins", sans-serif;
+}
+
+.circular--square { 
+  border-radius: 50%; 
+}
