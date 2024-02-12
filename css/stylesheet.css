@@ -16,9 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 .circular--square { 
   border-radius: 50%;
   border: 5px solid #555;
-/*   margin-left: auto;
-  margin-right: auto;
-  width: 50%; */
 }
 
 /* The side navigation menu */
@@ -32,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  text-align: center
 }
 
 /* The navigation menu links */
@@ -41,8 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 25px;
   color: #818181;
   display: block;
-/*   margin: auto;
-   width: 50%; */
 }
 
 /* When you mouse over the navigation links, change their color */
