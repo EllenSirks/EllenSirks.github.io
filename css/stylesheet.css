@@ -36,11 +36,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 60px;
+/*   padding: 6px 8px 6px 60px; */
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
+  margin: auto;
+  width: 50%;
 }
 
 /* When you mouse over the navigation links, change their color */
