@@ -16,7 +16,10 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url('../images/pretty_tarantula.png');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  max-height: 0px;
   background-position:220px,0px;
   -ms-overflow-style:none;
 }
