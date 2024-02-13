@@ -26,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #252b33;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 .circular--square { 
@@ -50,12 +50,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 0px;
+  padding-top: 6px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 30px;
+  color: #d3d3d3;
   display: block;
-  font-family: "Poppins", sans-serif;
+  font-family: "Avenir", sans-serif;
+  text-shadow:  -1px 0 #5A5A5A, 0 1px #5A5A5A, 1px 0 #5A5A5A, 0 -1px #5A5A5A;
   font-weight: bold;
 }
 
