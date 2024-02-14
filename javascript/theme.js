@@ -25,13 +25,3 @@ para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20p
 para.appendChild(node);
 const element = document.getElementById("image_credit");
 element.appendChild(para);
-
-// var credit = ["The Antennae galaxies", "The Tarantula Nebula", "Southern Pinwheel Galaxy (M83)"];
-// var index = Math.floor(Math.random() * credit.length)
-
-// const para = document.createElement("p");
-// const node = document.createTextNode(credit[index]);
-// para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20px; font-weight:bold");
-// para.appendChild(node);
-// const element = document.getElementById("image_credit");
-// element.appendChild(para);
