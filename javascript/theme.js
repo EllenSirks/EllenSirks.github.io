@@ -3,13 +3,13 @@ function pic() {
 
     index = Math.floor(Math.random() * bgm.length)
 
-    // $('.random_bg').css({
-    //     'background' : 'url('+ bgm[index] + ') no-repeat',
-    //     'background-position' : '100%',
-    //     'background-size' : 'cover',
-    //     'background-attachment': 'fixed',
-    //     '-ms-overflow-style': 'none'
-    // });
+    $('.random_bg').css({
+        'background' : 'url('+ bgm[index] + ') no-repeat',
+        'background-position' : '100%',
+        'background-size' : 'cover',
+        'background-attachment': 'fixed',
+        '-ms-overflow-style': 'none'
+    });
 
   return index
 
