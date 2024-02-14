@@ -1,5 +1,5 @@
 function pic() {
-    var bgm = ['EllenSirks.github.io/images/pretty_antennae.png', 'EllenSirks.github.io/images/pretty_tarantula.png', 'EllenSirks.github.io/images/pretty_m83.png'];
+    var bgm = ['https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_antennae.png', 'https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_tarantula.png', 'https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_m83.png'];
 
     index = Math.floor(Math.random() * bgm.length)
 
