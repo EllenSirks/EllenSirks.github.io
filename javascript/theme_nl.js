@@ -1,5 +1,5 @@
 function pic() {
-    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png'];
+    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png', './images/pretty_m83.png'];
 
     index = Math.floor(Math.random() * bgm.length)
 
@@ -17,7 +17,7 @@ function pic() {
 
 var index = pic();
 
-var credit_nl = ["De Antennae sterrenstelsels", "De Tarantula Nebula"][index];
+var credit_nl = ["De Antennae sterrenstelsels", "De Tarantula Nebula", "Zuidelijk Windmolenstelsel (M83)"][index];
 
 const para = document.createElement("p");
 const node = document.createTextNode(credit_nl);

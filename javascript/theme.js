@@ -1,5 +1,5 @@
 function pic() {
-    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png'];
+    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png', './images/pretty_m83.png'];
 
     index = Math.floor(Math.random() * bgm.length)
 
@@ -17,7 +17,7 @@ function pic() {
 
 var index = pic();
 
-var credit = ["The Antennae galaxies", "The Tarantula Nebula"][index];
+var credit = ["The Antennae galaxies", "The Tarantula Nebula", "Southern Pinwheel Galaxy (M83)"][index];
 
 const para = document.createElement("p");
 const node = document.createTextNode(credit);
