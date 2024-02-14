@@ -1,9 +1,27 @@
-/* Set the width of the side navigation to 250px */
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+function pic() {
+    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png'];
+
+    index = Math.floor(Math.random() * bgm.length)
+
+    $('.random_bg').css({
+        'background' : 'url('+ bgm[index] + ') no-repeat',
+        'background-position' : '100%',
+        'background-size' : 'cover',
+        'background-attachment': 'fixed',
+        '-ms-overflow-style': 'none'
+    });
+
+  return index
+
 }
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
+var index = pic();
+
+var credit = ["The Antennae galaxies", "The Tarantula Nebula"][index];
+
+const para = document.createElement("p");
+const node = document.createTextNode(credit);
+para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20px; font-weight:bold");
+para.appendChild(node);
+const element = document.getElementById("image_credit");
+element.appendChild(para);

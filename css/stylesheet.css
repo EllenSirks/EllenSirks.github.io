@@ -1,7 +1,3 @@
-body, html {
-  height: 100%;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -11,68 +7,64 @@ body, html {
 }
 
 body {
-  background: #dddddd;
-  color: #4c4d4d;
-  font-family: "Poppins", sans-serif;
-  background-image: url('../images/pretty_tarantula.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  max-height: 0px;
-  background-position:220px,0px;
-  -ms-overflow-style:none;
+  font-family: "Avenir", sans-serif;
+  background-color: black;
+}
+
+.random_bg {
+    height: 2000px;
+    width: 100%;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #252b33;
+  color: white;
   font-family: "Avenir", sans-serif;
 }
 
 .circular--square { 
   border-radius: 50%;
-  border: 5px solid #555;
+  border: 4px solid #A7A7A7;
 }
 
-/* The side navigation menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 220px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #212121;
+  overflow-x: hidden;
   padding-top: 20px;
   text-align: center;
 }
 
-/* The navigation menu links */
 .sidenav a {
-  padding-top: 6px;
+  padding-bottom: 15px;
   text-decoration: none;
-  font-size: 30px;
-  color: #d3d3d3;
+  font-size: 26px;
+  color: white;
   display: block;
   font-family: "Avenir", sans-serif;
-  text-shadow:  -1px 0 #5A5A5A, 0 1px #5A5A5A, 1px 0 #5A5A5A, 0 -1px #5A5A5A;
   font-weight: bold;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #B0B0B0;
 }
 
-/* Style page content */
 .main {
-  margin-left: 220px; /* Same as the width of the sidebar */
+  margin-left: 220px;
   padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
 }
