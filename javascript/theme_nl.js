@@ -1,5 +1,5 @@
 function pic() {
-    var bgm = ['./images/pretty_antennae.png', './images/pretty_tarantula.png', './images/pretty_m83.png'];
+    var bgm = ['images/pretty_antennae.PNG', 'images/pretty_tarantula.PNG', 'images/pretty_m83.PNG'];
 
     index = Math.floor(Math.random() * bgm.length)
 
