@@ -1,5 +1,6 @@
 function pic() {
-    var bgm = ['https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_antennae.png', 'https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_tarantula.png', 'https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_m83.png'];
+    var bgm = ['./images/pretty_antennae.PNG', './images/pretty_tarantula.PNG', './images/pretty_m83.PNG'];
+    // var bgm = ['https://github.com/EllenSirks/EllenSirks.github.io/tree/main/images/pretty_antennae.PNG','http://i.imgur.com/AOkCD.png', 'https://images2.alphacoders.com/599/599756.jpg'];
 
     index = Math.floor(Math.random() * bgm.length)
 
