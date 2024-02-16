@@ -21,7 +21,22 @@ var credit = ["The Antennae galaxies", "The Tarantula Nebula", "Southern Pinwhee
 
 const para = document.createElement("p");
 const node = document.createTextNode(credit);
-para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20px; font-weight:bold");
+para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20px; font-weight:bold;");
 para.appendChild(node);
 const element = document.getElementById("image_credit");
 element.appendChild(para);
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}

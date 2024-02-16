@@ -9,6 +9,14 @@
 body {
   font-family: "Avenir", sans-serif;
   background-color: black;
+  padding-left: 220px;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
 }
 
 .random_bg {
@@ -54,19 +62,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #B0B0B0;
 }
 
-.main {
-  margin-left: 220px;
-  padding: 0px 10px;
-}
+/*.sidenav a.active {
+  background-color: #04AA6D;
+  color: white;
+}*/
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
 }
 
 a {
@@ -75,4 +78,40 @@ a {
 
 a:hover {
   color: red;
+}
+
+h1 a:hover {
+  color: white;
+}
+
+.collapsible {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.2);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 18px;
+  color: white;
+  font-size: 20px;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
 }
