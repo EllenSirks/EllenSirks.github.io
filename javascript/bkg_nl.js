@@ -17,10 +17,10 @@ function pic() {
 
 var index = pic();
 
-var credit_nl = ["De Antennae sterrenstelsels", "De Tarantula Nebula", "Zuidelijk Windmolenstelsel (M83)"][index];
+var credit = ["De Antennae sterrenstelsels", "De Tarantula Nebula", "Zuidelijk Windmolenstelsel (M83)"][index];
 
 const para = document.createElement("p");
-const node = document.createTextNode(credit_nl);
+const node = document.createTextNode(credit);
 para.setAttribute("style", "color:white; position:fixed; right:10px; bottom: 20px; font-weight:bold");
 para.appendChild(node);
 const element = document.getElementById("image_credit_nl");
