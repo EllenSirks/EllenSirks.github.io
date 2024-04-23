@@ -37,7 +37,7 @@ function changeImg(id) {
   }
 
   var sidenav = document.getElementsByClassName('sidenav')[0];
-  var offset = -(1/scale)*(img.offsetLeft - (window.innerWidth/2 - sidenav.scrollWidth/2 - (img.width+padding)/2));
+  var offset = -(1/scale)*(img.offsetLeft - (window.innerWidth/2 + sidenav.scrollWidth/2 - (img.width+padding)/2));
 
   count = counts[index]
   

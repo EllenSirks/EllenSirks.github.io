@@ -20,9 +20,9 @@ html {
 }
 
 .random_bg {
-    height: 2000px;
     width: 100%;
-    position: relative;
+    position: static;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,14 +128,37 @@ div.box {
   width: 50%;
 }
 
-.basic {
-  display: block;
-}
-
 figcaption {
   color: white;
   font-style: italic;
   padding: 2px;
   text-align: center;
   margin: 5px auto;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 2000px;
+  position: absolute;
+  left: 50%;
+  margin-left: 107px;
+  top: 0;
+  z-index: 1000; 
+}
+
+.header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  margin: 50px 0px 0px 110px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-family: "Avenir", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header a {
+  color: white;
 }
