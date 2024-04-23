@@ -162,3 +162,22 @@ figcaption {
 .header a {
   color: white;
 }
+
+div.welcome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 110px;
+  transform: translate(-50%, -50%);*/
+}
+
+div.welcome p {
+  padding: 10px;
+  background: rgba(255,255,255,0.3);
+  color: white;
+  font-family: "Avenir", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke: 0.7px black;
+}
