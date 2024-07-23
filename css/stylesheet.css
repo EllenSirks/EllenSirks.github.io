@@ -168,7 +168,7 @@ div.welcome {
   left: 50%;
   top: 50%;
   margin-left: 110px;
-  transform: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
 }
 
 div.welcome p {
@@ -180,4 +180,32 @@ div.welcome p {
   font-weight: bold;
   text-align: center;
   -webkit-text-stroke: 0.7px black;
+}
+
+div.A4 {
+  position: absolute;
+  left: 50%;
+  margin-left: 110px;
+  margin-top: 120px;
+  transform: translate(-50%, 0);
+  width:210mm;
+}
+
+div.A4 p {
+  padding: 50px;
+  background: white;
+  color: black;
+  font-family: Calibri, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
